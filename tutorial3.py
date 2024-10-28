@@ -1,8 +1,8 @@
 import numpy as np
 import cv2
 
+# cap = cv2.VideoCapture('data\AMAZING CONCEPTS VEHICLES INVENTIONS THAT WILL BLOW YOUR MIND - YouTube - Google Chrome 2024-10-28 19-01-45.mp4')
 cap = cv2.VideoCapture(0)
-
 while True:
     ret, frame = cap.read()
     width = int(cap.get(3))
