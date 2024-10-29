@@ -28,9 +28,9 @@ while True:
     cv2.imshow('Blue Only', blue_only)
 
     # Break the loop when 'q' is pressed
-    if cv2.waitKey(1) == ord('q'):
+    if cv2.waitKey(1) == ord('a'):
         break
 
 # Release the capture and close windows
-cap.release()
-cv2.destroyAllWindows()
+cap.release() 
+cv2.destroyAllWindows()  
