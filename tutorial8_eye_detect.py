@@ -18,7 +18,7 @@ while True:
         for (ex, ey, ew, eh) in eyes:
             cv2.rectangle(roi_color, (ex, ey), (ex + ew, ey + eh), (0, 255, 0), 5)
 
-    cv2.imshow('frame', frame)
+    cv2.imshow('frame', frame) 
 
     if cv2.waitKey(1) == ord('q'):
         break
