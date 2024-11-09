@@ -12,3 +12,13 @@ if os.path.exists(file_path):
         print(f"Error: {e}")
 else:
     print(f"The file {file_path} does not exist.")
+
+# @REM @echo off
+# @REM REM Ensure we are in the correct Git repository directory
+# @REM cd /d "C:\Users\DELL\Desktop\Computer vision\openCV"
+
+# @REM REM Git commands to add, commit, and push changes
+# @REM git add .
+# @REM git commit -m "Automated commit: adding new line"
+# @REM git push origin main
+
