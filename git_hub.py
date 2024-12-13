@@ -64,3 +64,4 @@ time.sleep(5)
 
 # Optional: Perform any further actions or extract information
 print("Search performed with the provided link.")
+
