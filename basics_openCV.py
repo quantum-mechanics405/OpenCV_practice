@@ -17,3 +17,5 @@ cv2.imshow('Solvey COnference 1928',img)
 # cv2.imshow('Solvey COnference 1928',img2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+# git push https://quantum-mechanics405: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@github.com/quantum-mechanics405/OpenCV_practice.git main
+#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
