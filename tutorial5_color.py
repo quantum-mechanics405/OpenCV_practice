@@ -30,6 +30,7 @@ while True:
     # Break the loop when 'q' is pressed
     if cv2.waitKey(1) == ord('a'):
         break
+    
 
 # Release the capture and close windows
 cap.release() 

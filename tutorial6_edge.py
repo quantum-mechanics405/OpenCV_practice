@@ -12,6 +12,7 @@ for corner in corners:
 	x, y = corner.ravel()
 	cv2.circle(img, (x, y), 5, (255, 0, 0), -1)
 
+
 for i in range(len(corners)):
 	for j in range(i + 1, len(corners)):
 		corner1 = tuple(corners[i][0])
