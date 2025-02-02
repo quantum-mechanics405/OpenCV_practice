@@ -15,6 +15,7 @@ driver = webdriver.Chrome(options=chrome_options)
 # Open Google homepage
 driver.get("https://www.google.com")
 
+
 # Wait for the search input to load
 time.sleep(2)
 

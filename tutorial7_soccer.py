@@ -23,3 +23,4 @@ for method in methods:
     cv2.imshow('Match', img2)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
+    

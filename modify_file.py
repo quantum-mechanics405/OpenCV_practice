@@ -12,6 +12,7 @@ if os.path.exists(file_path):
         print(f"Error: {e}")
 else:
     print(f"The file {file_path} does not exist.")
+    
 
 # @REM @echo off
 # @REM REM Ensure we are in the correct Git repository directory

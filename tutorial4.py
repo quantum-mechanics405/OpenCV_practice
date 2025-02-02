@@ -4,6 +4,7 @@ import cv2
 cap = cv2.VideoCapture("data\AMAZING.mp4")
 
 
+
 # Check if the video opened successfully
 if not cap.isOpened():
     print("Error: Could not open video.")
