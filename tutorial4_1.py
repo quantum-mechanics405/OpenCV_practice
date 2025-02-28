@@ -31,5 +31,4 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 print(f'the height of the image {height}')
-
 print(f'the width of the image {width}')
