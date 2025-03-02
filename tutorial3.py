@@ -70,6 +70,4 @@ cv2.destroyAllWindows()
 print('Hello world')
 
 
-print('Hello world')
 
-print('Hello world')
