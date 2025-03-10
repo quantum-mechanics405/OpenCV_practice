@@ -11,6 +11,7 @@ pdf.set_font("Arial", style='B', size=16)
 pdf.cell(200, 10, "Solved English Precis & Composition Past Paper 2024", ln=True, align='C')
 pdf.ln(10)
 
+
 pdf.set_font("Arial", size=12)
 
 # MCQs Section (Solutions)
