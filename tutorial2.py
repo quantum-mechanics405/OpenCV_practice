@@ -9,5 +9,4 @@ img[:140, 800:] = img2
 print(img.shape)
 cv2.imshow('Solvey COnference 1928',img)
 cv2.waitKey(0)
-
 cv2.destroyAllWindows()

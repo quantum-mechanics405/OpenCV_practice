@@ -27,8 +27,6 @@ while True:
     if cv2.waitKey(1) == ord('q'):
         break
 
-
-
 cap.release()
 cv2.destroyAllWindows()
 print(f'the height of the image {height}')

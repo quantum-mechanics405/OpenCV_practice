@@ -7,7 +7,6 @@ cap = cv2.VideoCapture("data\AMAZING.mp4")
 if not cap.isOpened():
     print("Error: Could not open video.")
 else:
-    
     # Get frame rate (FPS)
     fps = cap.get(cv2.CAP_PROP_FPS)
     
