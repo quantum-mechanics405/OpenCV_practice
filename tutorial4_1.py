@@ -28,6 +28,7 @@ while True:
         break
 
 
+
 cap.release()
 cv2.destroyAllWindows()
 print(f'the height of the image {height}')
