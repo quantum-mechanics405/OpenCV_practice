@@ -9,6 +9,7 @@ while True:
     width = int(cap.get(3))
     height = int(cap.get(4))
 
+
     # image = np.zeros(frame.shape, np.uint8)
     smaller_frame = cv2.resize(frame, (0, 0), fx=1, fy=1)
     a =cv2.line(smaller_frame,(0,0),(width,height),(0,255,0),10)
