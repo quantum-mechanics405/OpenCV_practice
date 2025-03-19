@@ -1,6 +1,6 @@
 import os
 
-file_path = r'C:\Users\DELL\Desktop\Computer vision\openCV\tutorial3.py'
+file_path = r'C:\Users\DELL\Desktop\Computer Science\Computer vision\openCV\tutorial3.py'
 
 # Check if the file exists
 if os.path.exists(file_path):
