@@ -10,6 +10,7 @@ else:
     # Get frame rate (FPS)
     fps = cap.get(cv2.CAP_PROP_FPS)
     
+    
     # Get total number of frames
     total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
     
