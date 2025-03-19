@@ -8,6 +8,7 @@ cap = cv2.VideoCapture(0)
 lower_blue = np.array([100, 150, 0])
 upper_blue = np.array([140, 255, 255])
 
+
 while True:
     # Capture frame-by-frame
     ret, frame = cap.read()
